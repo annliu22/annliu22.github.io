@@ -42,7 +42,7 @@ ul ul {
     background-color: #5e2f18;
     overflow: hidden;
     width: 180px;
-    height: 88vh;
+    height: calc(100vh - 10px);
     padding: 15px;
     position: fixed;
 }
@@ -57,4 +57,14 @@ ul ul {
 .nav-links a:hover {
     background-color: None;
     color: #f5dfc9;
+}
+
+/* sub project links */
+.sub-project a{
+    color: #5e2f18;
+}
+
+.sub-project a:hover {
+    background-color: None;
+    color: #bf8656;
 }
